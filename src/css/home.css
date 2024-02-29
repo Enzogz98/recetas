@@ -1,0 +1,39 @@
+#home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #recetas {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #contacto {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    cursor: pointer;
+    width: 18rem;
+    margin: 10px;
+  }
+  
+  .modal-dialog {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: calc(100% - 1rem);
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .modal-body {
+    max-height: calc(100vh - 200px); 
+    overflow-y: auto;
+  }
