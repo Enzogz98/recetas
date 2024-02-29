@@ -1,0 +1,17 @@
+body {
+  z-index: 1000;
+  display: flex;
+  width: 100%;
+  top: 0;
+}
+
+.navBar {
+  width: 100%;
+  
+}
+.navbar-nav {
+    margin-left: auto; 
+  }
+  .nav-link {
+    margin-left: 20px; 
+  }

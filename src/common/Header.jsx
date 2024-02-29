@@ -2,6 +2,7 @@ import React from 'react'
 import  {Navbar, Nav, Container} from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../assets/logo.png'
+import '../css/header.css'
 const Header = () => {
   return (
     <div>
